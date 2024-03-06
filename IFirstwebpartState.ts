@@ -7,5 +7,9 @@ export interface IFirstwebpartState{
   currentTime: string;
   locationInput: string;
   location: string
+  feelslike: number;
+  tempmin: number;
+  tempmax: number;
+  weatherCondition: string
   }
   
